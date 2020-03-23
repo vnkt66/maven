@@ -28,9 +28,9 @@
   </dependencies>
 
   <repositories>
-    <repository>
-      <id>mygithub</id>
-      <url>https://github.com/vnkt66/maven</url>
+     <repository>
+       <id>myMavenRepo.read</id>
+       <url>https://mymavenrepo.com/repo/rhNNCQTKV4B1OEawnrYL//</url>
     </repository>
   </repositories>
 
