@@ -27,6 +27,22 @@
     </dependency>
   </dependencies>
 
+  <repositories>
+    <repository>
+      <id>mygithub</id>
+      <url>https://github.com/vnkt66/maven</url>
+    </repository>
+  </repositories>
+
+  <distributionManagement>
+    <repository>
+       <id>myMavenRepo.write</id>
+       <url>https://mymavenrepo.com/repo/QxI4wZXZSzGesYln5Ym8/</url>
+    </repository>
+</distributionManagement>
+
+
+
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
