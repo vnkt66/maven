@@ -1,19 +1,20 @@
 pipeline {
     agent any
     stages {
-        stage('Compile Stage') {
+        stage('Build Stage') {
         steps {
-                echo "Compiled Successfully"
+                bat `git add . 
+                     git commit -am "jf"`
         }
         }
-        stage('Testing Stage') {
+        stage('Deploy') {
         steps {
-                echo "Tested Successfully"
+                bat `git push -u origin master`
         }
         }
-        stage('Deployment Stage') {
+        stage('Release') {
         steps {
-               echo "Deployed Successfully"
+               echo "Released Successfully"
         }
         }
     }
