@@ -29,8 +29,8 @@
 
   <repositories>
      <repository>
-       <id>myMavenRepo.read</id>
-       <url>https://mymavenrepo.com/repo/rhNNCQTKV4B1OEawnrYL/</url>
+       <id>myrepo</id>
+       <url>https://github.com/vnkt66/maven.git</url>
     </repository>
   </repositories>
 
