@@ -3,13 +3,12 @@ pipeline {
     stages {
         stage('Build Stage') {
         steps {
-                bat `git add . 
-                     git commit -am "jf"`
+                echo "glgl"
         }
         }
         stage('Deploy') {
         steps {
-                bat `git push -u origin master`
+                echo "kgkgk"
         }
         }
         stage('Release') {
